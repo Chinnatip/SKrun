@@ -51,4 +51,14 @@ Rails.application.configure do
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+
+  # devise
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+  # Set facebook token for test mode
+  config.facebook_app_id = #"get APP_ID from dev facebook.com"
+  config.facebook_app_secret = #"get APPSE_CRET from dev facebook.com"
+
+  # development app_domain
+  config.app_domain = #"localhost url"
 end

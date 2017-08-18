@@ -85,9 +85,9 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # Set facebook token for live mode
-  config.facebook_app_id = #"get APP_ID from dev facebook.com"
-  config.facebook_app_secret = #"get APPSE_CRET from dev facebook.com"
+  config.facebook_app_id = "493572807645319"
+  config.facebook_app_secret = "8ba1b3bd292fe8bff7224dbc785f2a47"
 
   # production app_domain
-  config.app_domain = #"production url"
+  config.app_domain = "http://skrun.herokuapp.com/"
 end

@@ -56,9 +56,9 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
   # Set facebook token for test mode
-  config.facebook_app_id = #"get APP_ID from dev facebook.com"
-  config.facebook_app_secret = #"get APPSE_CRET from dev facebook.com"
+  config.facebook_app_id = "1127949693972189"
+  config.facebook_app_secret = "16a28ae2a39487d9c4614a244efc9eb2"
 
   # development app_domain
-  config.app_domain = #"localhost url"
+  config.app_domain = "http://localhost:3000/"
 end
